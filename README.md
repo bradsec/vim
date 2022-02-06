@@ -1,7 +1,7 @@
 # vim
 vim command cheatsheet and vim related information
 
-## VIM Cheatsheet / Keyboard Commands
+## VIM Cheatsheet (Keyboard Commands)
 ### Movement
 ```terminal
 h               move cursor left
