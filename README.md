@@ -5,6 +5,8 @@
 - Adds some VIM options including line numbers and highlighting
 - Installs for the current user.
 - To use the custom .vimrc preferences when using `sudo` run `sudo -E vim <filename>`
+- Does use `apt` to install and remove VIM (edit script if you don't want this function).
+- Tested on Debian based OS.
 
 #### Usage: Download and edit [vimconfig.sh](https://raw.githubusercontent.com/bradsec/vim/main/vimconfig.sh) script or use the one-liner below:
 `bash -c "$(wget -O- https://raw.githubusercontent.com/bradsec/vim/main/vimconfig.sh)"`
