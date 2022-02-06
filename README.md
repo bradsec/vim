@@ -1,5 +1,13 @@
-# vim
-vim command cheatsheet and vim related information
+# `vim` command cheatsheet and related information
+
+## Shell script for quick customisation of .vimrc 
+- Adds Molokai color scheme
+- Adds some VIM options including line numbers and highlighting
+- Installs for the current user.
+- To use the custom .vimrc preferences when using `sudo` run `sudo -E vim <filename>`
+
+#### Usage: Download and edit [vimconfig.sh](https://raw.githubusercontent.com/bradsec/vim/main/vimconfig.sh) script or use the one-liner below:
+`bash -c "$(wget -O- https://raw.githubusercontent.com/bradsec/vim/main/vimconfig.sh)"`
 
 ## VIM Cheatsheet (Keyboard Commands)
 ### Movement
