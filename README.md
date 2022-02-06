@@ -34,7 +34,7 @@ L               move to the bottom of the screen
 ```terminal
 *               jump to the next instance of a word
 #               jump to the previous instance of a word
-/pattern	       search forward for the specified pattern
+/pattern        search forward for the specified pattern
 ?pattern        search backward for the specified pattern
 n               repeat the search in the same direction
 N               repeat the search in the opposite direction
