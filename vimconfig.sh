@@ -331,20 +331,6 @@ set hlsearch " highlight matches
 " Turn off search highlighting with carriage-return ok
 nnoremap <leader><space> :nohlsearch<CR>
 
-" Move vertically don't skip wrapped lines
-nmap j gj
-nmap k gk
-
-" move to beginning/end of line
-nnoremap B ^
-nnoremap E $
-
-" $/^ doesn't do anything
-nnoremap $ <nop>
-nnoremap ^ <nop>
-
-" highlight last inserted text
-nnoremap gV `[v`]
 EOF
 }
 
