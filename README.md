@@ -20,17 +20,17 @@ k               move cursor up
 l               move cursor right
 G               move to the bottom of file
 gg              move to the top of the file
-H               move to the top of the screen
-M               move to the middle of the screen
-L               move to the bottom of the screen
+0 (zero)        move to the beginning of line
+$               move to the end of line
+:#              move to line number # (replace # with the number)
+H               (H)igh - move to the top of the screen
+M               (M)iddle - move to the middle of the screen
+L               (L)ow - move to the bottom of the screen
 #h [j/k/l]      move in a specified direction multiple times
 b / B           move to the start of a word / token
 w / W           move to the start of the next word / token
 e / E           move to the end of a word / token
-0(zero)         jump to the beginning of line
-$               jump to the end of line
 ^               jump to the first (non-blank) character of line
-:#              move to a specified line number (replace # with the line number)
 Ctrl+b          move back one full screen
 Ctrl+f          move forward one full screen
 Ctrl+d          move forward 1/2 a screen
