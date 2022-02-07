@@ -30,7 +30,6 @@ L               (L)ow - move to the bottom of the screen
 b / B           move to the start of a word / token
 w / W           move to the start of the next word / token
 e / E           move to the end of a word / token
-^               jump to the first (non-blank) character of line
 Ctrl+b          move back one full screen
 Ctrl+f          move forward one full screen
 Ctrl+d          move forward 1/2 a screen
